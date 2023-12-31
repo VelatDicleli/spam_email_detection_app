@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
 
-
+nltk.download('stopwords')
 
 model = joblib.load("ml_models/model_svc.pkl") #favorimiz olan svc algoritmamızı alalım ...
 
