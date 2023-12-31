@@ -3,6 +3,7 @@ import joblib #model kaydetme, tekrar tekrar kullanma işlemini sağlar
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize
 import string
+import nltk
 
 nltk.download('stopwords')
 
