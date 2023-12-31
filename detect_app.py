@@ -6,6 +6,7 @@ import string
 import nltk
 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 model = joblib.load("ml_models/model_svc.pkl") #favorimiz olan svc algoritmamızı alalım ...
 
