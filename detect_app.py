@@ -6,7 +6,7 @@ import string
 
 
 
-model = joblib.load("ml_models/model_xgb.pkl") #favorimiz olan random forest algoritmamızı alalım bakalım...
+model = joblib.load("ml_models/model_svc.pkl") #favorimiz olan svc algoritmamızı alalım ...
 
 
 
